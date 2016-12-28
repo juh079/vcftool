@@ -1,0 +1,42 @@
+##fileformat=VCFv4.0
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=HM2,Number=0,Type=Flag,Description="HapMap2 membership">
+##INFO=<ID=HM3,Number=0,Type=Flag,Description="HapMap3 membership">
+##INFO=<ID=AA,Number=1,Type=String,Description="Ancestral Allele, ftp://ftp.1000genomes.ebi.ac.uk/vol1/ftp/pilot_data/technical/reference/ancestral_alignments/README">
+##reference=human_b36_both.fasta
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=CB,Number=1,Type=String,Description="Called by S(Sanger), M(UMich), B(BI)">
+##rsIDs=dbSNP b129 mapped to NCBI 36.3, August 10, 2009
+##INFO=<ID=AC,Number=.,Type=Integer,Description="Allele count in genotypes">
+##INFO=<ID=AN,Number=1,Type=Integer,Description="Total number of alleles in called genotypes">
+##INFO=<ID=GP,Number=1,Type=String,Description="GRCh37 position(s)">
+##INFO=<ID=BN,Number=1,Type=Integer,Description="First dbSNP build #">
+##INFO=<ID=NR,Number=0,Type=Flag,Description="No dbSNP 132 map weight=1 rs number assigned to position">
+##INFO=<ID=OR,Number=1,Type=String,Description="Previous rs number">
+##INFO=<ID=MP,Number=0,Type=Flag,Description="Maps to multiple positions on GRCh37">
+#CHROM	POS	ID		REF	ALT	QUAL	FILTER	INFO
+1	533	rs114315702	G	C	.	PASS	AA=.;AC=6;AN=120;DP=423;GP=1:10533;BN=132
+1	41342	rs116400033	T	A	.	PASS	AA=.;AC=29;AN=120;DP=188;GP=1:51479;BN=132
+1	41791	rs78732933	G	A	.	PASS	AA=.;AC=5;AN=120;DP=192;GP=1:51928;BN=131
+1	44449	rs114201130	T	C	.	PASS	AA=C;AC=2;AN=120;DP=166;GP=1:54586;BN=132
+1	44539	rs2462492	C	T	.	PASS	AA=T;AC=2;AN=120;DP=131;GP=1:54676;BN=100
+1	44571	rs115797567	G	C	.	PASS	AA=g;AC=7;AN=120;DP=135;GP=1:54708;BN=132
+1	45162	rs10399749	C	T	.	PASS	AA=c;AC=20;AN=120;DP=166;HM2;GP=1:55299;BN=119
+1	52066	rs28402963	T	C	.	PASS	AA=C;AC=18;AN=120;DP=159;GP=1:62203;BN=125
+1	53534	rs116440577	G	A	.	PASS	AA=G;AC=18;AN=120;DP=243;GP=1:63671;BN=132
+1	75891	rs114608975	T	C	.	PASS	AA=.;AC=11;AN=120;DP=182;GP=1:86028;BN=132
+1	945460	rs115173026	G	T	.	PASS	AA=g;AC=33;AN=120;DP=75;GP=1:955597;BN=132
+1	967193	rs2799066	T	C	.	PASS	AA=C;AC=110;AN=120;DP=165;GP=1:977330;BN=100
+1	967433	rs2710876	G	A	.	PASS	AA=G;AC=107;AN=120;DP=183;GP=1:977570;BN=100
+1	969611	rs113288277	A	T	.	PASS	AA=A;AC=7;AN=120;DP=262;GP=1:979748;BN=132
+1	970950	rs3128098	A	G	.	PASS	AA=A;AC=113;AN=120;DP=296;GP=1:981087;BN=103
+1	971216	rs116836855	C	T	.	PASS	AA=C;AC=1;AN=120;DP=317;GP=1:981353;BN=132
+1	971794	rs2465128	A	G	.	PASS	AA=a;AC=112;AN=120;DP=148;GP=1:981931;BN=100
+1	974165	rs9442391	T	C	.	PASS	AA=t;AC=72;AN=120;DP=152;GP=1:984302;BN=119
+1	975129	rs2275813	C	T	.	PASS	AA=N;AC=58;AN=120;DP=140;GP=1:985266;BN=100
+1	975309	rs2275812	G	T	.	PASS	AA=g;AC=47;AN=120;DP=82;GP=1:985446;BN=100
+1	977063	rs9803031	C	T	.	PASS	AA=C;AC=112;AN=120;DP=346;HM3;GP=1:987200;BN=119
+1	980143	rs4275402	C	T	.	PASS	AA=C;AC=88;AN=120;DP=161;GP=1:990280;BN=111
+1	971216	rs116836855	C	T	.	PASS	AA=C;AC=1;AN=120;DP=317;GP=1:981353;BN=132
+11	22222	rs4961	A	T	.	PASS	.	
